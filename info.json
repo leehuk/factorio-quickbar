@@ -1,0 +1,11 @@
+{
+    "name": "quickbarkeys",
+    "title": "quickbarkeys",
+    "version": "1.0.0",
+    "factorio_version": "1.0",
+    "date": "2020-11-13",
+    "author": "",
+    "homepage": "",
+    "description": "",
+    "dependencies": ["base >= 1.0.0"]
+  }
