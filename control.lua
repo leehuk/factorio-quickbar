@@ -7,6 +7,10 @@ function quickbar_select(event)
     local page = (player.get_active_quick_bar_page(3) * 10) - 10 + tonumber(qbar[2])
     local item = player.get_quick_bar_slot(page)
 
+    if not item then
+        return
+    end
+
     player.clean_cursor()
     local inventory = player.get_main_inventory()
     if inventory then
